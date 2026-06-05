@@ -1,25 +1,31 @@
 # Rafles
-Kumpulan proyek dan dokumen portofolio Rafles 
-import Navbar from "@/components/portfolio/Navbar";
-import HeroSection from "@/components/portfolio/HeroSection";
-import AboutSection from "@/components/portfolio/AboutSection";
-import SkillsSection from "@/components/portfolio/SkillsSection";
-import ProjectsSection from "@/components/portfolio/ProjectsSection";
-import ContactSection from "@/components/portfolio/ContactSection";
+# Personal Portfolio Website
 
-const Index = () => {
-  return (
-    <div className="relative min-h-screen bg-background text-foreground">
-      <Navbar />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
-      </main>
-    </div>
-  );
-};
+Portfolio website built with:
 
-export default Index;
+- React + TypeScript
+- Tailwind CSS
+- Vite
+
+## Features
+
+- Responsive Design
+- Smooth Scrolling Navigation
+- Hero Section
+- About Me
+- Skills Showcase
+- Projects Gallery
+- Contact Section
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
