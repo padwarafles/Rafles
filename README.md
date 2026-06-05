@@ -29,3 +29,34 @@ npm run dev
 ```bash
 npm run build
 ```
+
+{
+  "common": {
+    "appName": "Portfolio Saya"
+  },
+  "home": {
+    "hero": {
+      "title": "Halo, Saya Nama Anda",
+      "subtitle": "Full Stack Developer | UI/UX Designer | Problem Solver",
+      "cta": "Lihat Proyek Saya"
+    },
+    "about": {
+      "title": "Tentang Saya"
+    },
+    "skills": {
+      "title": "Keahlian"
+    },
+    "projects": {
+      "title": "Proyek"
+    },
+    "contact": {
+      "title": "Hubungi Saya"
+    }
+  },
+  "notFound": {
+    "title": "404 - Halaman Tidak Ditemukan",
+    "actions": {
+      "backHome": "Kembali ke Beranda"
+    }
+  }
+}
