@@ -1,34 +1,70 @@
 # Rafles
 # Personal Portfolio Website
 
-Portfolio website built with:
+# Nama Proyek
 
-- React + TypeScript
-- Tailwind CSS
-- Vite
+Deskripsi singkat aplikasi.
 
-## Features
+## Demo
 
+Live URL:
+https://your-app-url.com
+
+## Fitur
+
+- Authentication
+- Dashboard
+- Multi-language (i18n)
 - Responsive Design
-- Smooth Scrolling Navigation
-- Hero Section
-- About Me
-- Skills Showcase
-- Projects Gallery
-- Contact Section
+- Dark Mode
 
-## Installation
+## Tech Stack
 
-import { useTranslation } from "react-i18next";
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-export default function HeroSection() {
-  const { t } = useTranslation();
+## Instalasi
 
-  return (
-    <section>
-      <h1>{t("home.hero.title")}</h1>
-      <p>{t("home.hero.subtitle")}</p>
-      <button>{t("home.hero.cta")}</button>
-    </section>
-  );
-}
+```bash
+git clone https://github.com/username/repository.git
+cd repository
+pnpm install
+pnpm dev
+```
+
+## Build
+
+```bash
+pnpm build
+```
+
+## Struktur Folder
+
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── lib/
+├── i18n/
+└── assets/
+```
+
+## Environment Variables
+
+Buat file `.env`:
+
+```env
+VITE_API_URL=https://api.example.com
+```
+
+## Deployment
+
+Deploy menggunakan Enter.pro atau Vercel.
+
+## License
+
+MIT
