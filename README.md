@@ -19,44 +19,16 @@ Portfolio website built with:
 
 ## Installation
 
-```bash
-npm install
-npm run dev
-```
+import { useTranslation } from "react-i18next";
 
-## Build
+export default function HeroSection() {
+  const { t } = useTranslation();
 
-```bash
-npm run build
-```
-
-{
-  "common": {
-    "appName": "Portfolio Saya"
-  },
-  "home": {
-    "hero": {
-      "title": "Halo, Saya Nama Anda",
-      "subtitle": "Full Stack Developer | UI/UX Designer | Problem Solver",
-      "cta": "Lihat Proyek Saya"
-    },
-    "about": {
-      "title": "Tentang Saya"
-    },
-    "skills": {
-      "title": "Keahlian"
-    },
-    "projects": {
-      "title": "Proyek"
-    },
-    "contact": {
-      "title": "Hubungi Saya"
-    }
-  },
-  "notFound": {
-    "title": "404 - Halaman Tidak Ditemukan",
-    "actions": {
-      "backHome": "Kembali ke Beranda"
-    }
-  }
+  return (
+    <section>
+      <h1>{t("home.hero.title")}</h1>
+      <p>{t("home.hero.subtitle")}</p>
+      <button>{t("home.hero.cta")}</button>
+    </section>
+  );
 }
